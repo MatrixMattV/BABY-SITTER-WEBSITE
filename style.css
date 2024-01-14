@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-lina-kivaka-1741231.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #fff;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: red;
+    color: #fff;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    color: red;
+    background: #fff;
+}
